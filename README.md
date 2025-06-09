@@ -1,5 +1,5 @@
 npm install ,,
-npm start   ,, only to see the all over projevt 
+npm start   ,, see the all over working project
 
 
 # Getting Started with Create React App
