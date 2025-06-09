@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+/* src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --crypto-dark: #121826;
+  --crypto-card: #1f2937;
+  --crypto-primary: #00ff9d;
+  --crypto-accent: #7928ca;
+  --crypto-danger: #ff4d4d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: #0a0f1a;
   color: white;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+/* 4K Optimization */
+@media (min-width: 3840px) {
+  html {
+    font-size: 1.4rem;
+  }
+  
+  .max-w-8xl {
+    max-width: 2400px;
+  }
+  
+  .gap-6 {
+    gap: 2rem;
+  }
+  
+  .p-6 {
+    padding: 3rem;
+  }
+  
+  .text-3xl {
+    font-size: 2.5rem;
+  }
+  
+  .text-4xl {
+    font-size: 3.5rem;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
