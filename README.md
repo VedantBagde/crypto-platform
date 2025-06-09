@@ -1,5 +1,5 @@
-npm install
-npm start    
+npm install ,,
+npm start   ,, only to see the all over projevt 
 
 
 # Getting Started with Create React App
