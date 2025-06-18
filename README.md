@@ -1,5 +1,21 @@
 npm install ,,
 npm start   ,, see the all over working project
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone https://github.com/VedantBagde/crypto-platform.git
+
+# Step 2: Navigate to the project directory.
+cd crypto-platform
+
+# Step 3: Install the necessary dependencies.
+npm install
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm start
+
+# Ready to View Your Cloned Repo (VedX)
+
+```
 
 
 # Getting Started with Create React App
