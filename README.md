@@ -1,5 +1,4 @@
-npm install ,,
-npm start   ,, see the all over working project
+Copy Pest In Your Folders Terminal
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
 git clone https://github.com/VedantBagde/crypto-platform.git
